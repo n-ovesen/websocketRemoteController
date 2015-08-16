@@ -109,20 +109,6 @@ def main():
                 ws.send(jsonObj)
                 print jsonObj
 
-
-
-            else:
-                msg['D'] = 0
-                msg['T'] = 0
-                msg['V'] = 0
-                jsonObj = json.dumps(msg)
-                ws.send(jsonObj)
-                print jsonObj
-
-
-
-
-
 if __name__ == '__main__':
 
     try:
