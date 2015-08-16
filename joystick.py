@@ -105,11 +105,6 @@ def main():
                     print "KILL! KILL IT WITH FIRE!!"
                     exit()
 
-                else:
-                    msg['D'] = 0
-                    msg['T'] = 0
-                    msg['V'] = 0
-
                 jsonObj = json.dumps(msg)
                 ws.send(jsonObj)
                 print jsonObj
